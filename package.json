@@ -1,22 +1,16 @@
 {
-  "name": "wally-astro-google",
+  "name": "wally-astro-package",
+  "private": true,
   "version": "0.0.1",
-  "type": "module",
-  "exports": {
-    ".": "./index.ts"
-  },
-  "files": [
-    "src",
-    "index.ts"
+  "workspaces": [
+    "demo",
+    "packages/*"
   ],
-  "keywords": [
-    "astro-component"
-  ],
-  "scripts": {},
-  "devDependencies": {
-    "astro": "^5.14.1"
-  },
-  "peerDependencies": {
-    "astro": "^4.0.0 || ^5.0.0"
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "preview": "npm run preview --workspaces",
+    "dev:demo": "npm run dev --workspace=demo",
+    "dev:pkg": "npm run dev --workspace=astro-google-reviews"
   }
 }

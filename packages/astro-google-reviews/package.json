@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wally-website/astro-google-reviews.git"
+    "url": "git+https://github.com/wally-website/astro-google-reviews.git"
   },
   "bugs": {
     "url": "https://github.com/wally-website/astro-google-reviews/issues"

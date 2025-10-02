@@ -2,7 +2,7 @@
   "name": "astro-google-reviews",
   "description": "Google Reviews Widget for Astro (powered by Wally)",
   "author": "Kirill Tereshchenko",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "license": "MIT",
   "repository": {
@@ -23,6 +23,7 @@
   "keywords": [
     "astro-component",
     "withastro",
+    "ui",
     "google reviews",
     "wally",
     "reviews"

@@ -4,6 +4,7 @@
   "author": "Kirill Tereshchenko",
   "version": "0.0.1",
   "type": "module",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/wally-website/astro-google-reviews.git"
